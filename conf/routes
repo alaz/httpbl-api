@@ -1,1 +1,1 @@
-GET     /v1/ip/:ip                    controllers.IpInfo.lookup(ip: String, apiKey: String)
+GET     /v2/ip/:ip                    controllers.IpInfo.lookup(ip: String, apiKey: String)
