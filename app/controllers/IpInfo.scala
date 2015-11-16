@@ -4,7 +4,7 @@ import play.api.mvc.{Action,Controller}
 import play.api.libs.json.Json
 import com.osinka.httpbl.HttpBL
 
-object IpInfo extends Controller {
+class IpInfo extends Controller {
   import Serialization._
 
   def lookup(ip: String, apiKey: String) = Action {
